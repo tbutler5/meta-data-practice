@@ -19,7 +19,7 @@
             "maxUsers": 15,
             "isActive": true,
             "billingCycle": "monthly",
-            "discounts": [{"type": "bulk", "amount": 10.00, "minUsers": 10}],
+            "discounts": [{"type": "bulk", "amount": 10.00, "validUntil": "2024-12-31"}],
             "overageCharges": {"perUser": 4.00, "maxCharge": 60.00}
         },
         {
@@ -85,7 +85,7 @@
             "maxUsers": null,
             "isActive": true,
             "billingCycle": "yearly",
-            "discounts": [{"type": "loyalty", "amount": 200.00, "validAfterYears": 2}],
+            "discounts": [{"type": "loyalty", "amount": 200.00, "validUntil": "2024-12-31"}],
             "overageCharges": {"perUser": 1.50, "maxCharge": 200.00}
         },
         {
