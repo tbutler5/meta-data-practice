@@ -7,17 +7,17 @@ export default function HomePage() {
       <ul className="space-y-2">
         <li>
           <Link href="/tasks/task1">
-            <a className="text-blue-500 hover:underline">Task 1: Customer Invoice Display</a>
+            <p className="text-blue-500 hover:underline">Task 1: Customer Invoice Display</p>
           </Link>
         </li>
         <li>
           <Link href="/tasks/task2">
-            <a className="text-blue-500 hover:underline">Task 2: Usage Data Table</a>
+            <p className="text-blue-500 hover:underline">Task 2: Usage Data Table</p>
           </Link>
         </li>
         <li>
           <Link href="/tasks/task3">
-            <a className="text-blue-500 hover:underline">Task 3: Billing Plans Display</a>
+            <p className="text-blue-500 hover:underline">Task 3: Billing Plans Display</p>
           </Link>
         </li>
       </ul>
