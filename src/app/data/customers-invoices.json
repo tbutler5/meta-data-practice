@@ -1,0 +1,140 @@
+{
+    "customerInvoices": [
+        {
+            "invoiceId": "R6iNurqrT6TjsSRJ",
+            "amountDue": "3792.49",
+            "status": "issued",
+            "isTrial": false,
+            "canBeEmailed": true,
+            "invoiceNumber": "YUKXKU-00002",
+            "invoiceType": "subscription",
+            "invoiceDate": "2024-10-26T07:00:00+00:00",
+            "dueDate": "2024-11-24T08:00:00+00:00",
+            "scheduledIssueAt": "2024-12-14T00:12:12+00:00",
+            "totalWithTax": "3792.49",
+            "webappStatus": "issued",
+            "externalStatus": "issued",
+            "hostedInvoiceUrl": "https://demo.withorb.com/invoices/view?token=ImlEdmtiQnBoM0hOb0Fzelci.b1LEzroTfSmB0HREf3wqRSnbDWk",
+            "customer": {
+                "customerId": "T9VDLakXcKRBC4gB",
+                "name": "Matrix Industries",
+                "email": "billing@matrixindustries.com",
+                "timezone": "America/Los_Angeles",
+                "externalCustomerId": "matrix_industries"
+            },
+            "invoicingPricingUnit": {
+                "currencyId": "NepHRYwritsAQKGJ",
+                "displayName": "US Dollar",
+                "isRealWorldCurrency": true,
+                "shortName": "USD",
+                "symbol": "$"
+            },
+            "creditNotes": [],
+            "mostRecentManualTransaction": null,
+            "mostRecentPaymentTransaction": null,
+            "invoicePdf": null
+        },
+        {
+            "invoiceId": "4uHvTxu3ybRnh3Zt",
+            "amountDue": "6879.42",
+            "status": "issued",
+            "isTrial": false,
+            "canBeEmailed": true,
+            "invoiceNumber": "WUZXOC-00008",
+            "invoiceType": "subscription",
+            "invoiceDate": "2024-10-25T07:00:00+00:00",
+            "dueDate": "2024-11-23T08:00:00+00:00",
+            "scheduledIssueAt": "2024-12-14T00:12:11+00:00",
+            "totalWithTax": "6879.42",
+            "webappStatus": "issued",
+            "externalStatus": "issued",
+            "hostedInvoiceUrl": "https://demo.withorb.com/invoices/view?token=IlFGR1R5RzRReWlyM0VWa1Ai.BlwWuulkjU7yn8MquBg94pwhwLU",
+            "customer": {
+                "customerId": "6RzZPozhQhbZFyVs",
+                "name": "Zentaur",
+                "email": "billing@zentaur.com",
+                "timezone": "America/Los_Angeles",
+                "externalCustomerId": "zentaur"
+            },
+            "invoicingPricingUnit": {
+                "currencyId": "NepHRYwritsAQKGJ",
+                "displayName": "US Dollar",
+                "isRealWorldCurrency": true,
+                "shortName": "USD",
+                "symbol": "$"
+            },
+            "creditNotes": [],
+            "mostRecentManualTransaction": null,
+            "mostRecentPaymentTransaction": null,
+            "invoicePdf": null
+        },
+        {
+            "invoiceId": "yqfut3Se8eP8mZCX",
+            "amountDue": "3180.10",
+            "status": "issued",
+            "isTrial": false,
+            "canBeEmailed": true,
+            "invoiceNumber": "XUNONC-00012",
+            "invoiceType": "subscription",
+            "invoiceDate": "2024-10-24T07:00:00+00:00",
+            "dueDate": "2024-11-22T08:00:00+00:00",
+            "scheduledIssueAt": "2024-12-14T00:12:10+00:00",
+            "totalWithTax": "3180.10",
+            "webappStatus": "issued",
+            "externalStatus": "issued",
+            "hostedInvoiceUrl": "https://demo.withorb.com/invoices/view?token=IkdOYjQ1bmR3bzdHZHN0TlEi.Wz-2AJFSYh_JsExIrS_2piCyuVo",
+            "customer": {
+                "customerId": "6ZMh4K7rWBZNErrw",
+                "name": "Analyst Labs",
+                "email": "billing@analystlabs.com",
+                "timezone": "America/Los_Angeles",
+                "externalCustomerId": "analyst_labs"
+            },
+            "invoicingPricingUnit": {
+                "currencyId": "NepHRYwritsAQKGJ",
+                "displayName": "US Dollar",
+                "isRealWorldCurrency": true,
+                "shortName": "USD",
+                "symbol": "$"
+            },
+            "creditNotes": [],
+            "mostRecentManualTransaction": null,
+            "mostRecentPaymentTransaction": null,
+            "invoicePdf": null
+        },
+        {
+            "invoiceId": "kFrBMgDoC7cEdKDd",
+            "amountDue": "8169.78",
+            "status": "issued",
+            "isTrial": false,
+            "canBeEmailed": true,
+            "invoiceNumber": "UAAMWR-00011",
+            "invoiceType": "subscription",
+            "invoiceDate": "2024-10-21T07:00:00+00:00",
+            "dueDate": "2024-11-19T08:00:00+00:00",
+            "scheduledIssueAt": "2024-12-14T00:12:11+00:00",
+            "totalWithTax": "8169.78",
+            "webappStatus": "issued",
+            "externalStatus": "issued",
+            "hostedInvoiceUrl": "https://demo.withorb.com/invoices/view?token=InZrVmRVQVoyUXM0TnJXYloi.NWCeT2yiOfJLVy_kJSGE3uL0ht8",
+            "customer": {
+                "customerId": "HBe4FbiJqjvM5iaH",
+                "name": "Catalyst Industries",
+                "email": "billing@catalystindustries.com",
+                "timezone": "America/Los_Angeles",
+                "externalCustomerId": "catalyst_industries"
+            },
+            "invoicingPricingUnit": {
+                "currencyId": "NepHRYwritsAQKGJ",
+                "displayName": "US Dollar",
+                "isRealWorldCurrency": true,
+                "shortName": "USD",
+                "symbol": "$"
+            },
+            "creditNotes": [],
+            "mostRecentManualTransaction": null,
+            "mostRecentPaymentTransaction": null,
+            "invoicePdf": null
+        }
+    ]
+}

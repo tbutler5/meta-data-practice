@@ -1,0 +1,97 @@
+{
+    "invoices": [
+        {
+            "invoiceId": "INV-001",
+            "customer": {
+                "customerId": "CUST-101",
+                "name": "Matrix Industries",
+                "email": "billing@matrixindustries.com",
+                "timezone": "America/Los_Angeles"
+            },
+            "amountDue": 3792.49,
+            "invoiceDate": "2024-10-26T07:00:00+00:00",
+            "dueDate": "2024-11-24T08:00:00+00:00",
+            "status": "issued",
+            "paymentStatus": "pending",
+            "invoiceType": "subscription",
+            "items": [
+                {
+                    "description": "Base Subscription",
+                    "quantity": 1,
+                    "unitPrice": 3792.49,
+                    "total": 3792.49
+                }
+            ]
+        },
+        {
+            "invoiceId": "INV-002",
+            "customer": {
+                "customerId": "CUST-102",
+                "name": "Zentaur",
+                "email": "billing@zentaur.com",
+                "timezone": "America/Los_Angeles"
+            },
+            "amountDue": 6879.42,
+            "invoiceDate": "2024-10-25T07:00:00+00:00",
+            "dueDate": "2024-11-23T08:00:00+00:00",
+            "status": "issued",
+            "paymentStatus": "paid",
+            "invoiceType": "subscription",
+            "items": [
+                {
+                    "description": "Advanced Analytics",
+                    "quantity": 2,
+                    "unitPrice": 3439.71,
+                    "total": 6879.42
+                }
+            ]
+        },
+        {
+            "invoiceId": "INV-003",
+            "customer": {
+                "customerId": "CUST-103",
+                "name": "Analyst Labs",
+                "email": "billing@analystlabs.com",
+                "timezone": "America/Los_Angeles"
+            },
+            "amountDue": 3180.10,
+            "invoiceDate": "2024-10-24T07:00:00+00:00",
+            "dueDate": "2024-11-22T08:00:00+00:00",
+            "status": "issued",
+            "paymentStatus": "overdue",
+            "invoiceType": "subscription",
+            "items": [
+                {
+                    "description": "Starter Plan",
+                    "quantity": 1,
+                    "unitPrice": 3180.10,
+                    "total": 3180.10
+                }
+            ]
+        },
+        {
+            "invoiceId": "INV-004",
+            "customer": {
+                "customerId": "CUST-104",
+                "name": "Catalyst Industries",
+                "email": "billing@catalystindustries.com",
+                "timezone": "America/Los_Angeles"
+            },
+            "amountDue": 8169.78,
+            "invoiceDate": "2024-10-21T07:00:00+00:00",
+            "dueDate": "2024-11-19T08:00:00+00:00",
+            "status": "issued",
+            "paymentStatus": "failed",
+            "invoiceType": "subscription",
+            "items": [
+                {
+                    "description": "Enterprise Plan",
+                    "quantity": 3,
+                    "unitPrice": 2723.26,
+                    "total": 8169.78
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2024-12-14T23:20:00Z"
+}

@@ -1,0 +1,119 @@
+{
+    "billingPlans": [
+        {
+            "planId": "PLAN-101",
+            "planName": "Basic Plan",
+            "pricePerMonth": 25.99,
+            "features": ["Basic Analytics", "Email Support"],
+            "maxUsers": 5,
+            "isActive": true,
+            "billingCycle": "monthly",
+            "discounts": [{"type": "seasonal", "amount": 5.00, "validUntil": "2024-12-31"}],
+            "overageCharges": {"perUser": 5.00, "maxCharge": 50.00}
+        },
+        {
+            "planId": "PLAN-102",
+            "planName": "Professional Plan",
+            "pricePerMonth": 49.99,
+            "features": ["Advanced Analytics", "Priority Email Support", "5 GB Storage"],
+            "maxUsers": 15,
+            "isActive": true,
+            "billingCycle": "monthly",
+            "discounts": [{"type": "bulk", "amount": 10.00, "minUsers": 10}],
+            "overageCharges": {"perUser": 4.00, "maxCharge": 60.00}
+        },
+        {
+            "planId": "PLAN-103",
+            "planName": "Enterprise Plan",
+            "pricePerMonth": 99.99,
+            "features": ["Full Analytics Suite", "24/7 Support", "Custom Integrations", "20 GB Storage"],
+            "maxUsers": 50,
+            "isActive": true,
+            "billingCycle": "yearly",
+            "discounts": [{"type": "annual", "amount": 120.00}],
+            "overageCharges": {"perUser": 3.00, "maxCharge": 100.00}
+        },
+        {
+            "planId": "PLAN-104",
+            "planName": "Startup Plan",
+            "pricePerMonth": 15.00,
+            "features": ["Limited Analytics", "Email Support"],
+            "maxUsers": 3,
+            "isActive": true,
+            "billingCycle": "monthly",
+            "discounts": [{"type": "introductory", "amount": 5.00, "validUntil": "2025-06-30"}],
+            "overageCharges": {"perUser": 6.00, "maxCharge": 30.00}
+        },
+        {
+            "planId": "PLAN-105",
+            "planName": "Premium Plan",
+            "pricePerMonth": 129.99,
+            "features": [
+                "Unlimited Analytics",
+                "Dedicated Account Manager",
+                "50 GB Storage",
+                "24/7 Priority Support"
+            ],
+            "maxUsers": 100,
+            "isActive": true,
+            "billingCycle": "monthly",
+            "discounts": [{"type": "seasonal", "amount": 15.00, "validUntil": "2024-12-31"}],
+            "overageCharges": {"perUser": 2.50, "maxCharge": 150.00}
+        },
+        {
+            "planId": "PLAN-106",
+            "planName": "Legacy Basic Plan",
+            "pricePerMonth": 19.99,
+            "features": ["Basic Analytics", "Email Support"],
+            "maxUsers": 5,
+            "isActive": false,
+            "billingCycle": "monthly",
+            "discounts": [],
+            "overageCharges": {"perUser": 5.00, "maxCharge": 50.00}
+        },
+        {
+            "planId": "PLAN-107",
+            "planName": "Enterprise Plus Plan",
+            "pricePerMonth": 199.99,
+            "features": [
+                "Unlimited Analytics",
+                "Premium Integrations",
+                "Unlimited Users",
+                "100 GB Storage",
+                "White-Label Support"
+            ],
+            "maxUsers": null,
+            "isActive": true,
+            "billingCycle": "yearly",
+            "discounts": [{"type": "loyalty", "amount": 200.00, "validAfterYears": 2}],
+            "overageCharges": {"perUser": 1.50, "maxCharge": 200.00}
+        },
+        {
+            "planId": "PLAN-108",
+            "planName": "Nonprofit Plan",
+            "pricePerMonth": 9.99,
+            "features": ["Basic Analytics", "Community Support", "3 GB Storage"],
+            "maxUsers": 10,
+            "isActive": true,
+            "billingCycle": "monthly",
+            "discounts": [{"type": "nonprofit", "amount": 5.00}],
+            "overageCharges": {"perUser": 2.00, "maxCharge": 20.00}
+        },
+        {
+            "planId": "PLAN-109",
+            "planName": "Education Plan",
+            "pricePerMonth": 0.00,
+            "features": ["Basic Analytics", "Student Dashboard"],
+            "maxUsers": 500,
+            "isActive": true,
+            "billingCycle": "monthly",
+            "discounts": [],
+            "overageCharges": {"perUser": 0.00, "maxCharge": 0.00}
+        }
+    ],
+    "updatedTimestamp": "2024-12-14T23:20:00Z",
+    "legalInfo": {
+        "notice": "Prices are subject to applicable taxes and fees. Plans may change based on usage agreements.",
+        "termsUrl": "https://example.com/terms-of-service"
+    }
+}
